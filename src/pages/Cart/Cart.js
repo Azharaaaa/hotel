@@ -39,7 +39,7 @@ const Cart = () => {
                     setCart([])
                     reset()
                     toast({
-                        title: 'Заказ отправлен',
+                        title: 'The order has been sent',
                         description: "Наш оператор с вами скоро свяжется",
                         status: 'success',
                         duration: 5000,
@@ -50,7 +50,7 @@ const Cart = () => {
                 })
                 .catch((err) =>{
                     toast({
-                        title: 'Заказ не отправлен',
+                        title: 'Order not sent',
                         description: "Проверьте правильность введеных данных",
                         status: 'error',
                         duration: 5000,
@@ -107,11 +107,11 @@ const Cart = () => {
                                         <InputMask type='tel'  placeholder='phone'  id='phone' mask={`+\\9\\96(999)99-99-99`} {...register('phone', {
                                             required: {
                                                 value: true,
-                                                message: 'Это поле обязательное',
+                                                message: 'This field required',
                                             },
                                             pattern: {
                                                 value: /^\+996\(\d{3}\)\d{2}-\d{2}-\d{2}$/,
-                                                message: 'Заполните номер телефона',
+                                                message: 'Fill the phone number',
                                             },
                                         })}/>
                                         <FormErrorMessage>
@@ -120,15 +120,15 @@ const Cart = () => {
                                     </FormControl>
 
                                     <RadioGroup {...register('pay')}>
-                                        <FormLabel >Способ оплаты</FormLabel>
+                                        <FormLabel >Payment method</FormLabel>
                                         <Stack>
-                                            <Radio value='card'>Карточкой на сайте</Radio>
-                                            <Radio value='getOrder'>При получении заказа</Radio>
+                                            <Radio value='card'>Card on the site</Radio>
+                                            <Radio value='getOrder'>Upon receipt of the order</Radio>
                                         </Stack>
                                     </RadioGroup>
 
 
-                                    <p className='cart__price'>Всего : {cart.reduce((acc,rec) => acc + rec.price , 0 )} $</p>
+                                    <p className='cart__price'>Total : {cart.reduce((acc,rec) => acc + rec.price , 0 )} $</p>
 
 
                                     <Button mt={4} colorScheme='teal' isLoading={isSubmitting} type='submit'>
@@ -171,7 +171,7 @@ const Cart = () => {
 
                                             <CardFooter>
                                                 <Button variant='solid' colorScheme='blue'>
-                                                    Добавить в корзину
+                                                   Add to basket
                                                 </Button>
                                             </CardFooter>
                                         </Stack>
@@ -199,7 +199,7 @@ const Cart = () => {
                                 </filter>
                             </defs>
                         </svg>
-                        <button>перейти в каталог</button>
+
                     </>
 
                 }

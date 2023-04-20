@@ -1,5 +1,30 @@
 .choose{
   padding: 150px  32px 100px 146px;
+  &__form{
+    padding: 60px 100px ;
+    flex-direction: column;
+    width: 45%;
+    border: 0.7px solid #333333 ;
+    margin-top: 40px;
+    background: #E9ECE0;
+    &-price{
+      margin-bottom: 40px;
+
+    }
+    &-counter{
+      border-top: 0.7px solid #333333;
+      width: 300px;
+      margin-top: 10px;
+      margin-bottom: 20px;
+    }
+
+    &-card{
+      display: flex;
+      flex-direction: column;
+      row-gap: 15px;
+    }
+
+  }
 
   &__drop{
     padding: 18px 24px;
@@ -22,6 +47,8 @@
   &__row{
     display: flex;
     flex-direction: column;
+    row-gap: 20px;
+
 
   }
   &__content{
@@ -56,7 +83,8 @@
     display: flex;
     flex-direction: column;
     position: absolute;
-    top:50%;
+    top:40%;
+    font-size: 25px;
     &-one{
       position: absolute;
       right: 15px;

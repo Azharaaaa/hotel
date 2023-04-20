@@ -1,5 +1,5 @@
 import React from 'react';
-import {NavLink} from "react-router-dom"
+import {NavLink,Link} from "react-router-dom"
 import logo from '../../assets/images/logo.png'
 
 const Header = () => {
@@ -24,7 +24,10 @@ const Header = () => {
 
                         <NavLink to={'/faq'} className="header__menu-link">faq</NavLink>
                     </div>
-                    <button className="header__btn">Book Now</button>
+                    <Link to={'/booking'}>
+                        <button className="header__btn">Book Now</button>
+                    </Link>
+
                 </nav>
             </div>
             

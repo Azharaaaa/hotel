@@ -2,6 +2,7 @@ import React from 'react';
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import  begin from "../../../assets/images/begin.png"
+import {Link} from "react-router-dom"
 
 
 import "swiper/css";
@@ -76,12 +77,15 @@ const Begin = () => {
 
 
                 </Swiper>
-                <div className="begin__btn">
-                    <button  className="begin__btn-right">Book Now</button>
-                    <p className="begin__btn-left">from
-                        €3.200
-                        <br/> per night</p>
-                </div>
+                <Link to={"/booking"}>
+                    <div className="begin__btn">
+                        <button  className="begin__btn-right">Book Now</button>
+                        <p className="begin__btn-left">from
+                            €3.200
+                            <br/> per night</p>
+                    </div>
+                </Link>
+
 
 
             </div>
