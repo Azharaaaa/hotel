@@ -1,0 +1,16 @@
+.address{
+  padding: 65px 88px 135px 360px;
+  &__content{
+    display: flex;
+    width: calc(50% - 10px);
+    align-items: center;
+  }
+  &__title{
+    width: 426px;
+    height: 168px;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: #5B6460;
+  }
+}

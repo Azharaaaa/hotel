@@ -1,0 +1,38 @@
+.question{
+  padding: 100px 0 150px;
+  &__block{
+    width: 70%;
+    border: 0.7px solid #5B6460;
+    margin-bottom: 15px;
+
+  }
+  &__box{
+    padding: 21px 24px;
+    display: flex;
+    justify-content: space-between;
+  }
+  &__title{
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #333333;
+    margin-bottom: 20px;
+  }
+  &__text{
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #333333;
+    margin-bottom: 10px;
+
+  }
+  &__item{
+    width: 70%;
+    padding:21px 24px;
+    background: #E9ECE0;
+    margin-bottom: 15px;
+  }
+
+}
+
+

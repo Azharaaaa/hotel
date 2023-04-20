@@ -1,0 +1,31 @@
+.person{
+  padding: 150px 145px;
+  &__row{
+    display: flex;
+    column-gap: 137px;
+    align-items: center;
+  }
+  &__left{
+    width: 50%;
+  }
+  &__right{
+    width: 50%;
+  }
+  &__title{
+    font-family: 'Open Sans',sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 24px;
+    color: #5B6460;
+
+  }
+  &__text{
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #333333;
+    margin-top: 32px;
+
+
+  }
+}

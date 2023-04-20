@@ -1,0 +1,38 @@
+.about{
+  background: url("../assets/images/aboutbg.png") center/cover no-repeat;
+  padding: 67px 420px 172px;
+  &__title{
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 300;
+    font-size: 70px;
+    text-align: center;
+    color: #FFFFFF;
+
+  }
+  &__btn{
+    padding: 14px 45px;
+    border: 0.7px solid #FFFFFF;
+    font-family: 'DIN',sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    background-color: transparent;
+    color: #FFFFFF;
+    cursor: pointer;
+
+  }
+  &__btns{
+    display: flex;
+    column-gap: 24px;
+  }
+  &__content{
+    display: flex;
+    flex-direction: column;
+    row-gap: 90px;
+    align-items: center;
+  }
+
+
+}

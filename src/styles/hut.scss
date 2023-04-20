@@ -1,0 +1,12 @@
+.hut{
+  background: url("../assets/images/hut1.png" ) center/cover no-repeat;
+  padding: 67px 423px 211px;
+  opacity: 0.9;
+  &__title{
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 300;
+    font-size: 70px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+}

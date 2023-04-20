@@ -1,0 +1,27 @@
+.area{
+  background: url("../assets/images/area.png") center/cover no-repeat;
+  padding: 67px 420px 172px;
+  &__title{
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 300;
+    font-size: 70px;
+    text-align: center;
+    color: #000000;
+
+
+
+  }
+  &__icon{
+    color: #000000;
+  }
+  &__address{
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    text-decoration-line: underline;
+    color:#000000;
+  }
+  &__map{
+    text-align: center;
+  }
+}

@@ -1,0 +1,29 @@
+.rules{
+  padding: 150px  32px 100px 146px;
+  &__block{
+    display: flex;
+    width: 55%;
+    flex-direction: column;
+    &-title{
+      font-family: 'Open Sans',sans-serif;
+      font-weight: 600;
+      font-size: 24px;
+      color: #5B6460;
+      border-bottom: 0.7px solid #5B6460 ;
+      margin-bottom: 24px;
+
+    }
+    &-text{
+      font-family: 'Open Sans',sans-serif;
+      font-weight: 400;
+      font-size: 16px;
+      color: #333333;
+      margin-bottom: 20px;
+
+    }
+    &-content{
+      margin-bottom: 100px;
+    }
+  }
+
+}

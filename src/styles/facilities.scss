@@ -1,0 +1,31 @@
+.facilities{
+  background: #5B6460;
+  padding: 150px 0 129px 0;
+  &__title{
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    text-align: center;
+    color: #FFFFFF;
+
+  }
+  &__cards{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    margin-top: 120px;
+    row-gap: 70px;
+  }
+  &__card{
+    width:25%;
+    &-text{
+      font-family: 'Open Sans',sans-serif;
+      font-weight: 400;
+      font-size: 18px;
+      color: #FFFFFF;
+      margin-top: 20px;
+
+    }
+  }
+}

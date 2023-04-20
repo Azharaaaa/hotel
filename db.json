@@ -1,0 +1,44 @@
+{
+  "users": [],
+  "menu": [
+    {
+      "id": 1,
+      "title": "Fresh Breakfast for one",
+      "price": 400
+    },
+    {
+      "id": 2,
+      "title": "Fresh Breakfast for two",
+      "price": 500
+    },
+    {
+      "id": 3,
+      "title": "Dinner for one",
+      "price": 600
+    },
+    {
+      "id": 4,
+      "title": "Dinner for two",
+      "price":800
+    },
+    {
+      "id": 5,
+      "title": " Classic dinner for one",
+      "price": 900
+    },
+    {
+      "id": 6,
+      "title": " Classic dinner for two",
+      "price": 2000
+    }
+  ],
+  "car": [
+    {
+      "id": 6,
+      "title": "Electric car charge",
+      "price": 850
+    }
+  ],
+  "orders": []
+
+}
